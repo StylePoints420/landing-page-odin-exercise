@@ -1,1 +1,1 @@
-# landing-page-odin-exercse
+# landing-page-odin-exercise
