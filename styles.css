@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* Makes sticky footer possible */
+    min-height: 100vh;
+}
+/* Navbar styles */
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    border:1px solid red;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border:1px solid yellow;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+/* Content 1 styles */
+
