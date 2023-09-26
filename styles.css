@@ -142,5 +142,38 @@ button {
     border: 5px solid rgb(44, 142, 253);
 }
 
+/* Content 3 styles */
+
+.content-three-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.content-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 05.;
+    gap: 15px;
+}
+
+.header-quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-from {
+    display: flex;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
 
 
