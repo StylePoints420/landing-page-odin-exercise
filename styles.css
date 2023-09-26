@@ -174,6 +174,64 @@ button {
     font-weight: bold;
 }
 
+/* Last content styles */
+
+.last-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    background-image: url("pictures/seele-bg.png");
+    background-size: 100%;
+    background-position: center;
+
+}
+
+
+.last-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-color: #0096FF;
+    height: 100px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+.left-last-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+    gap: 10px;
+}
+
+.bold-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.bottom-text {
+    font-size: 20px;
+    text-align: left;
+    /* Needed to be aligned to the bold text div above*/
+    width: 440px;
+    color: white;
+
+}
+
+
+button.download {
+    border: none;
+    width: 300px;
+    background-color: yellow;
+    color: black;
+    flex-shrink: 0;
+}
+
 
 
 
