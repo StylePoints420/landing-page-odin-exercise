@@ -54,7 +54,6 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 40%;
-    gap: 60px;
 }
 
 .text-header {
@@ -65,7 +64,7 @@ a {
 
 .text {
     font-size: 30px;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 
@@ -73,11 +72,11 @@ button {
     background-color: #3882F6;
     padding: 15px;
     border-radius: 10px;
-    width: 120px;
+    width: 140px;
     border: none;
     color: #F9FAF8;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .content-pic img{
@@ -85,4 +84,33 @@ button {
     height: auto;
 }
 
+/* Content 2 styles */
+.content-two-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-two {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.grid-container {
+    
+}
+
+.grid {
+    border: 5px solid rgb(44, 142, 253);
+    height: 150px;
+    border-radius: 10px;
+}
+
+.content-two-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
 
