@@ -85,32 +85,62 @@ button {
 }
 
 /* Content 2 styles */
-.content-two-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content-two {
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.grid-container {
-    
-}
-
-.grid {
-    border: 5px solid rgb(44, 142, 253);
-    height: 150px;
-    border-radius: 10px;
-}
 
 .content-two-header-text {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 30px;
 }
+
+.content-two-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.content-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex: 1;
+}
+
+.box-container {
+    width: 200px;
+    height: 200px;
+}
+
+.grid-text {
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+/* Color variation for each characters */
+
+.grid-text.one {
+    color: rgb(255, 118, 55);
+}
+
+.grid-text.two {
+    color: rgb(68, 195, 253);
+}
+.grid-text.three {
+    color: rgb(205, 34, 240);
+}
+.grid-text.four {
+    color: rgb(240, 143, 159);
+}
+
+.box-container img{
+    width: 190px;
+    height: auto;
+    border: 5px solid rgb(44, 142, 253);
+}
+
+
 
