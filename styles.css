@@ -3,6 +3,8 @@ body {
     margin: 0;
     /* Makes sticky footer possible */
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 /* Navbar styles */
 .header-container {
@@ -184,6 +186,7 @@ button {
     background-image: url("pictures/seele-bg.png");
     background-size: 100%;
     background-position: center;
+    flex: 1;
 
 }
 
@@ -232,6 +235,17 @@ button.download {
     flex-shrink: 0;
 }
 
+/* Footer */
 
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 40px;
+    color: white;
+    font-size: 24px;
+    
+}
 
 
