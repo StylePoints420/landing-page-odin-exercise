@@ -81,6 +81,11 @@ button {
     font-size: 18px;
 }
 
+button.btn:hover{
+    background-color: orange;
+    border-style: solid black;
+}
+
 .content-pic img{
     width: 900px;
     height: auto;
@@ -93,8 +98,8 @@ button {
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
-    margin-bottom: 24px;
     padding: 30px;
+    background-color: white;
 }
 
 .content-two-container {
@@ -102,6 +107,7 @@ button {
     justify-content: center;
     align-items: center;
     padding-bottom: 150px;
+    background-color: white;
 }
 
 .content-two {
@@ -110,6 +116,7 @@ button {
     align-items: center;
     gap: 24px;
     flex: 1;
+    background-color: white;
 }
 
 .box-container {
@@ -150,8 +157,12 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
     padding: 150px;
+    background-image: url("pictures/kiana-gif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .content-three {
@@ -164,15 +175,19 @@ button {
 }
 
 .header-quote-text {
-    font-size: 36px;
+    font-size: 45px;
     font-style: italic;
-    color: #1F2937;
+    color : orange;
+    font-weight: 900;
+    text-shadow: 2px 2px black;
 }
 
 .quote-from {
     display: flex;
     align-self: flex-end;
-    font-size: 24px;
+    color: rgb(221, 14, 14);
+    text-shadow: 2px 2px black;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -230,10 +245,16 @@ button {
 button.download {
     border: none;
     width: 300px;
-    background-color: yellow;
-    color: black;
+    background-color: orange;
     flex-shrink: 0;
 }
+
+
+button.download:hover {
+    border: 2px solid black;
+}
+
+
 
 /* Footer */
 
@@ -245,7 +266,6 @@ button.download {
     padding: 40px;
     color: white;
     font-size: 24px;
-    
 }
 
 
