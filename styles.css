@@ -99,7 +99,7 @@ button.btn:hover{
     color: #1F2937;
     text-align: center;
     padding: 30px;
-    background-color: white;
+    background-color: #E5E7EB;
 }
 
 .content-two-container {
@@ -107,7 +107,7 @@ button.btn:hover{
     justify-content: center;
     align-items: center;
     padding-bottom: 150px;
-    background-color: white;
+    background-color: #E5E7EB;
 }
 
 .content-two {
@@ -116,7 +116,7 @@ button.btn:hover{
     align-items: center;
     gap: 24px;
     flex: 1;
-    background-color: white;
+    background-color: #E5E7EB;
 }
 
 .box-container {
@@ -155,27 +155,26 @@ button.btn:hover{
 
 .content-three-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
     padding: 150px;
-    background-image: url("pictures/kiana-gif.gif");
-    background-repeat: no-repeat;
+    background-image: url("pictures/kianaa.png");
     background-size: cover;
-    background-position: center;
+    background-position:center;
+    background-repeat: no-repeat;
 
 }
 
 .content-three {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
-    flex: 05.;
     gap: 15px;
+
 }
 
 .header-quote-text {
-    font-size: 45px;
+    font-size: 40px;
     font-style: italic;
     color : orange;
     font-weight: 900;
@@ -185,8 +184,8 @@ button.btn:hover{
 .quote-from {
     display: flex;
     align-self: flex-end;
-    color: rgb(221, 14, 14);
-    text-shadow: 2px 2px black;
+    color: rgb(247, 83, 54);
+    text-shadow: 2px 1px black;
     font-size: 30px;
     font-weight: bold;
 }
@@ -198,9 +197,7 @@ button.btn:hover{
     justify-content: center;
     align-items: center;
     padding: 150px;
-    background-image: url("pictures/seele-bg.png");
-    background-size: 100%;
-    background-position: center;
+    background-color: #E5E7EB;
     flex: 1;
 
 }
